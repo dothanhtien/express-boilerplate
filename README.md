@@ -1,0 +1,22 @@
+# Express Boilerplate
+
+## .env
+NODE_ENV="development"
+
+DEV_DB_USERNAME="root"
+DEV_DB_PASSWORD="12345678x@X"
+DEV_DB_DATABASE="testdb"
+DEV_DB_HOST="127.0.0.1"
+DEV_DB_DIALECT="mysql"
+
+TEST_DB_USERNAME="root"
+TEST_DB_PASSWORD=null
+TEST_DB_DATABASE="database_test"
+TEST_DB_HOST="127.0.0.1"
+TEST_DB_DIALECT="mysql"
+
+PROD_DB_USERNAME="root"
+PROD_DB_PASSWORD=null
+PROD_DB_DATABASE="database_production"
+PROD_DB_HOST="127.0.0.1"
+PROD_DB_DIALECT="mysql"
